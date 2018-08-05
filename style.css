@@ -1,16 +1,30 @@
-.navigation{
-  background-color: royalblue;
-  color: white;
-  padding: 5px;
+.navbar{
+  background-color: #4169e1;
+  padding: 1% 0;
+  font-size: 1.2em;
 }
-.navigation1{
-  background-color: royalblue;
-  padding: 10px;
-}
-a{
-  color: white;
+.navbar-logo{
+  min-height: 55px;
+  padding: 0 15px 5px;
 }
 
-i{
-  font-size:29px;
+.navbar-default .navbar-nav li a{
+  color: white;
+}
+#home{
+  background: url(Images/chip.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+.landing-text{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.padding img{
+  width: 100%;
 }
